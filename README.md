@@ -12,43 +12,23 @@ Results<br>
 # Overview
 This repository provides the implementation of YOLOv8 for detecting and segmenting organs from medical images, including:<br>
 
+Black Background<br>
+Abdominal Wall<br>
 Liver<br>
+Gastrointestinal Tract<br>
+Fat<br>
+Grasper<br>
+Connective Tissue<br>
+Blood<br>
+Cystic Duct<br>
+L-hook Electrocautery<br>
 Gallbladder<br>
 Hepatic Vein<br>
-Abdominal Wall<br>
-Gastrointestinal Tract<br>
-Cystic Duct<br>
-And others...<br>
-The goal is to automate the detection and classification of organs in medical images using computer vision techniques.<br>
+Liver Ligament<br>
 
-Installation
-Clone the Repository:
-
-bash
-Copy code
-git clone https://github.com/yourusername/organ-detection-yolov8.git
-cd organ-detection-yolov8
-Install Required Packages: Install the necessary libraries by running the following command:
-
-bash
-Copy code
-pip install -r requirements.txt
-Dependencies:
-
-ultralytics (for YOLOv8)
-opencv-python (for image processing)
-matplotlib (for visualization)
-numpy (for numerical operations)
-wandb (for experiment tracking)
-Setup Google Drive (if using Colab): If you're using Google Colab, mount your Google Drive to access datasets:
-
-python
-Copy code
-from google.colab import drive
-drive.mount('/content/drive')
-Dataset
-The dataset consists of medical images and corresponding masks for each organ. The dataset is structured as follows:
-
+ # Dataset
+The dataset namely *CholecSeg8k* consists of medical images and corresponding masks for each organ. The dataset is structured as follows:<br>
+<br>
 train_images: Images for training the model.
 val_images: Images for validation.
 test_images: Images for testing.
