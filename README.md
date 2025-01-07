@@ -3,14 +3,13 @@ This project uses YOLOv8 to detect organs in medical imagery. The model has been
 
 # Table of Contents
 Overview
-Installation
 Dataset
 Usage
 Model Training
 Model Evaluation
 Results
-License
-Overview
+
+# Overview
 This repository provides the implementation of YOLOv8 for detecting and segmenting organs from medical images, including:
 
 Liver
