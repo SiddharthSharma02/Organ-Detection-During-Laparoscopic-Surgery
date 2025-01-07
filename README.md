@@ -2,24 +2,24 @@
 This project uses YOLOv8 to detect organs in medical imagery. The model has been trained using a custom dataset and is capable of segmenting and classifying various organs with high accuracy. Then tensorflow lite is used for it's deployment.
 
 # Table of Contents
-Overview
-Dataset
-Usage
-Model Training
-Model Evaluation
-Results
+Overview<br>
+Dataset<br>
+Usage<br>
+Model Training<br>
+Model Evaluation<br>
+Results<br>
 
 # Overview
-This repository provides the implementation of YOLOv8 for detecting and segmenting organs from medical images, including:
+This repository provides the implementation of YOLOv8 for detecting and segmenting organs from medical images, including:<br>
 
-Liver
-Gallbladder
-Hepatic Vein
-Abdominal Wall
-Gastrointestinal Tract
-Cystic Duct
-And others...
-The goal is to automate the detection and classification of organs in medical images using computer vision techniques.
+Liver<br>
+Gallbladder<br>
+Hepatic Vein<br>
+Abdominal Wall<br>
+Gastrointestinal Tract<br>
+Cystic Duct<br>
+And others...<br>
+The goal is to automate the detection and classification of organs in medical images using computer vision techniques.<br>
 
 Installation
 Clone the Repository:
